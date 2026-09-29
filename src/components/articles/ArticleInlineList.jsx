@@ -35,12 +35,13 @@ function ArticleInlineList({ dataWrapper, id }) {
 function ArticleInlineListItems({ dataWrapper, selectedItemCategoryId}) {
     const viewport = useViewport()
 
+    // यहाँ maxItems को 6 कर दिया गया है ताकि सभी 6 आइटम्स दिख सकें
     const maxItems = viewport.getValueFromBreakpointHash({
-        xxl: 5,
-        xl: 4,
-        md: 3,
-        sm: 2,
-        default: 2
+        xxl: 6,
+        xl: 6,
+        md: 4,
+        sm: 3,
+        default: 3
     })
 
     const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
@@ -55,7 +56,7 @@ function ArticleInlineListItems({ dataWrapper, selectedItemCategoryId}) {
         <ul className={`article-inline-list-items ${listClass}`}>
             {slicedItems.map((itemWrapper, key) => (
                 <ArticleInlineListItem itemWrapper={itemWrapper}
-                                       key={key}/>
+                                     key={key}/>
             ))}
         </ul>
     )
