@@ -1,11 +1,124 @@
 {
+   "seo": {
+    "title": "Adarsh Shukla | Data Analyst, Software Developer, Writer & Hindi Poet and Author (@theadarshshukla)",
+    "description": "Official portfolio of Adarsh Shukla (आदर्श शुक्ला) - Data Analyst, Computer & Data Science student at MUIT, author of 'Ilahabad ki Sangini', and Hindi poet.",
+    "canonical": "https://adarshshukla.in",
+    "keywords": "theadarshshukla, adarsh shukla data analyst, kavi adarsh shukla, poet adarsh shukla, adarsh shukla author, maharishi university of information technology, ilahabad ki sangini, python developer, Adarsh Shukla B.Tech, Adarsh Shukla MUIT, The Adarsh Shukla, Q141392257",
+    "openGraph": {
+      "type": "profile",
+      "title": "Adarsh Shukla - Data Analyst & Hindi Poet",
+      "description": "Bridging data analytics logic with creative Hindi literature and poetry.",
+      "url": "https://adarshshukla.in",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQF3-ESUaNNwJQ/profile-displayphoto-crop_800_800/B4DaCJOZ.PGYAI-/0/1789008652415?e=1792022400&v=beta&t=Pbxutig7oIqVI9q-Luyiz8hy7gqhFVDTu3c2CcB8a9c",
+      "username": "theadarshshukla",
+      "profile": {
+        "firstName": "Adarsh",
+        "lastName": "Shukla",
+        "gender": "male"
+      }
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@adarshshukla___",
+      "creator": "@adarshshukla___",
+      "title": "Adarsh Shukla | Data Analyst & Hindi Poet",
+      "description": "Official portfolio and digital footprint of Adarsh Shukla.",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQF3-ESUaNNwJQ/profile-displayphoto-crop_800_800/B4DaCJOZ.PGYAI-/0/1789008652415?e=1792022400&v=beta&t=Pbxutig7oIqVI9q-Luyiz8hy7gqhFVDTu3c2CcB8a9c"
+    },
+    "schemaMarkup": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://adarshshukla.in",
+          "name": "Adarsh Shukla",
+          "givenName": "Adarsh",
+          "familyName": "Shukla",
+          "alternateName": [
+            "आदर्श शुक्ला",
+            "theadarshshukla",
+            "Kavi Adarsh Shukla",
+            "Poet Adarsh Shukla",
+            "Adarsh Shukla Author",
+            "Adarsh Shukla MUIT",
+            "Adarsh Shukla",
+            "the adarsh shukla",
+            "Adarsh Shukla Data analyst"
+          ],
+          "description": "Data Analyst, Software Developer, MUIT Student, Hindi Poet, and Author.",
+          "url": "https://adarshshukla.in",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQF3-ESUaNNwJQ/profile-displayphoto-crop_800_800/B4DaCJOZ.PGYAI-/0/1789008652415?e=1792022400&v=beta&t=Pbxutig7oIqVI9q-Luyiz8hy7gqhFVDTu3c2CcB8a9c",
+          "jobTitle": [
+            "Data Analyst",
+            "Software Developer",
+            "MUIT Student",
+            "Hindi Poet",
+            "Author",
+            "Writer"
+          ],
+          "worksFor": {
+            "@type": "CollegeOrUniversity",
+            "name": "Maharishi University of Information Technology",
+            "sameAs": "https://www.muit.in"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Maharishi University of Information Technology"
+          },
+          "birthPlace": {
+            "@type": "Place",
+            "name": "Ayodhya, Uttar Pradesh, India"
+          },
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Noida, Uttar Pradesh, India"
+          },
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q141392257",
+            "https://www.linkedin.com/in/theadarshshukla/",
+            "https://github.com/Theadarshshukla",
+            "https://www.instagram.com/the_adarshshukla",
+            "https://x.com/adarshshukla___",
+            "https://leetcode.com/theadarshshukla",
+            "https://www.hackerrank.com/theadarshshukla",
+            "https://dev.to/theadarshshukla",
+            "https://medium.com/@theadarshshukla",
+            "https://sahityapedia.com/author/theadarshshukla"
+          ],
+          "knowsAbout": [
+            "Data Analytics",
+            "Java (Programming Language)",
+            "Python (Programming Language)",
+            "SQL",
+            "Power BI",
+            "Hindi Literature",
+            "Hindi Poetry",
+            "Prompt Engineering",
+            "Software Development"
+          ],
+          "mainEntityOfPage": "https://adarshshukla.in"
+        },
+        {
+          "@type": "Book",
+          "@id": "https://adarshshukla.in/#book",
+          "name": "इलाहाबाद की संगिनी (Ilahabad ki Sangini)",
+          "author": {
+            "@id": "https://adarshshukla.in/"
+          },
+          "isbn": "9789334496499",
+          "inLanguage": "hi",
+          "genre": "Hindi Novella / Literature"
+        }
+      ]
+    }
+  },
     "title": {
         "locales": {
             "en": {
                 "title_short": "Welcome!",
                 "title_short_nav": "About me",
                 "title_long_prefix": "Hello...",
-                "title_long": "I'm {{Adarsh Shukla!}}"
+                "title_long": "I'm {{Adarsh Shukla!}} @theadarshshukla"
             },
             "es": {
                 "title_short": "¡Saludos!",
@@ -40,7 +153,7 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Noida – India",
+                    "label": "Noida",
                     "link": {
                         "href": "",
                         "tooltipString": ""
@@ -49,7 +162,7 @@
                 },
                 {
                     "id": 2,
-                    "label": "shuklaadarsh319@gmail.com",
+                    "label": "Mail",
                     "link": {
                         "href": "shuklaadarsh319@gmail.com",
                         "tooltipString": "email_me"
@@ -69,10 +182,28 @@
                     "id": 4,
                     "label": "Github",
                     "link": {
-                        "href": "https://github.com/The-adarshshukla",
+                        "href": "https://github.com/Theadarshshukla",
                         "tooltipString": "see_on_github"
                     },
                     "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 5,
+                    "label": "Instagram",
+                    "link": {
+                        "href": "https://www.instagram.com/theadarshshukla", 
+                        "tooltipString": "see_on_instagram"
+                    },
+                    "faIcon": "fa-brands fa-instagram"
+                },
+                {
+                    "id": 6,
+                    "label": "X",
+                    "link": {
+                        "href": "https://x.com/theadarshshukla",
+                        "tooltipString": "see_on_x"
+                    },
+                    "faIcon": "fa-brands fa-x-twitter"
                 }
             ]
         },
@@ -108,7 +239,7 @@
                     },
                     "locales": {
                         "en": {
-                            "text": "<p>Hi, I'm <b>{{ADARSH SHUKLA}}</b>, a Data Analyst and Computer & Data Science student at Maharishi University of Information Technology (MUIT).</p><p>I bridge the gap between technical logic and creative storytelling. While my core expertise lies in data analytics, Python, SQL, Power BI, and predictive modeling using Pandas and NumPy, I also embrace my creative side as a Hindi poet and writer.</p><p>Whether I am building data-driven dashboards, solving complex DSA problems, SQL queries, crafting digital platforms or writing poetry, I look forward to [[collaborating with you!]]</p>"
+                            "text": "<p><b>{{ADARSH SHUKLA}} (@theadarshshukla) </b>, a Data Analyst and Computer & Data Science student at Maharishi University of Information Technology (MUIT).</p><p>I bridge the gap between technical logic and creative storytelling. While my core expertise lies in data analytics, Python, SQL, Power BI, and predictive modeling using Pandas and NumPy, I also embrace my creative side as a Hindi poet and writer.</p><p>Whether I am building data-driven dashboards, solving complex DSA problems, SQL queries, crafting digital platforms or writing poetry, I look forward to [[collaborating with you!]]</p>"
                         },
                         "es": {
                             "text": "<p>Hola, soy <b>{{ADARSH SHUKLA}}</b>, analista de datos y estudiante de Informática y Ciencia de Datos en la Universidad Maharishi de Tecnología de la Información (MUIT).</p><p>Combino la analítica de datos, Python, SQL y Power BI con mi faceta creativa como poeta y escritor en hindi para convertir números en estrategias claras.</p><p>¡Espero con interés [[colaborar contigo!]]</p>"
