@@ -162,7 +162,7 @@
                 },
                 {
                     "id": 2,
-                    "label": "Email",
+                    "label": "Mail",
                     "link": {
                         "href": "shuklaadarsh319@gmail.com",
                         "tooltipString": "email_me"
@@ -191,12 +191,20 @@
                     "id": 5,
                     "label": "Instagram",
                     "link": {
-                        "href": "https://www.instagram.com/the_adarshshukla", 
+                        "href": "https://www.instagram.com/theadarshshukla", 
                         "tooltipString": "see_on_instagram"
                     },
                     "faIcon": "fa-brands fa-instagram"
                 },
-              
+                {
+                    "id": 6,
+                    "label": "X",
+                    "link": {
+                        "href": "https://x.com/theadarshshukla",
+                        "tooltipString": "see_on_x"
+                    },
+                    "faIcon": "fa-brands fa-x-twitter"
+                }
             ]
         },
         {
