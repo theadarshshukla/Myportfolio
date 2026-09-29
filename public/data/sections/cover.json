@@ -118,7 +118,7 @@
                 "title_short": "Welcome!",
                 "title_short_nav": "About me",
                 "title_long_prefix": "Hello...",
-                "title_long": "I'm {{Adarsh Shukla!}} @theadarshshukla"
+                "title_long": "I'm {{Adarsh Shukla!}}"
             },
             "es": {
                 "title_short": "¡Saludos!",
@@ -162,7 +162,7 @@
                 },
                 {
                     "id": 2,
-                    "label": "Mail",
+                    "label": "Email",
                     "link": {
                         "href": "shuklaadarsh319@gmail.com",
                         "tooltipString": "email_me"
@@ -196,15 +196,7 @@
                     },
                     "faIcon": "fa-brands fa-instagram"
                 },
-                {
-                    "id": 6,
-                    "label": "X",
-                    "link": {
-                        "href": "https://x.com/theadarshshukla",
-                        "tooltipString": "see_on_x"
-                    },
-                    "faIcon": "fa-brands fa-x-twitter"
-                }
+               
             ]
         },
         {
