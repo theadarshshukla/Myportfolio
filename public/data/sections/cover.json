@@ -223,7 +223,7 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/a.png",
+                    "img": "./Pro.png",
                     "faIcon": "",
                     "faIconColors": {
                         "bg": "",
