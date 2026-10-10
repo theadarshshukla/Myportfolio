@@ -1,7 +1,7 @@
 {
     "name": "Adarsh Shukla",
 
-    "profilePictureUrl": "images/pictures/b.jpeg",
+    "profilePictureUrl": "./Pro.png",
     "resumePdfUrl": "docs/assets/adarshshuklaresume.pdf",
 
     "statusCircleVisible": true,
