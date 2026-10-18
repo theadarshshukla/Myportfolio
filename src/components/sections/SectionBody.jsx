@@ -17,9 +17,12 @@ import ArticleThread from "/src/components/articles/ArticleThread.jsx"
 import ArticleTimeline from "/src/components/articles/ArticleTimeline.jsx"
 import ArticleSupportWork from "/src/components/articles/ArticleSupportWork.jsx"
 import ArticleTechStack from "/src/components/articles/ArticleTechStack.jsx"
+import ArticleEducation from "/src/components/articles/ArticleEducation.jsx"
 
-// 👈 1. Yahan apni nayi file ko import karein (path apne folder structure ke mutabiq check kar lein)
-import ArticleEducation from "/src/components/articles/ArticleEducation.jsx" 
+// 👈 1. Yahan apni nayi Publications file ko import karein
+import ArticlePublication from "/src/components/articles/ArticlePublication.jsx";
+import ArticleBookHero from "/src/components/articles/ArticleBookHero.jsx" 
+import ArticleBookSpecs from "/src/components/articles/ArticleBookSpecs.jsx" 
 
 function SectionBody({ section }) {
     const parser = useParser()
@@ -30,8 +33,8 @@ function SectionBody({ section }) {
             {articleDataWrappers && articleDataWrappers.map((dataWrapper, key) => {
                 const Component = SectionBody.ARTICLES[dataWrapper.component] || ArticleNotFound
                 return <Component dataWrapper={dataWrapper}
-                                id={key}
-                                key={key}/>
+                                  id={key}
+                                  key={key}/>
             })}
         </div>
     )
@@ -54,7 +57,10 @@ SectionBody.ARTICLES = {
     ArticleTimeline,
     ArticleTechStack,
     ArticleSupportWork,
-    ArticleEducation // 👈 2. Yahan object ke andar register kar dein
+    ArticleEducation,
+    ArticlePublication,
+    ArticleBookHero,
+    ArticleBookSpecs // 👈 2. Yahan object ke andar register kar dein
 }
 
 export default SectionBody

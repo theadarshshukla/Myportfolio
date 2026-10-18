@@ -33,3 +33,10 @@ div.image-view-error-wrapper {
     color: var(--theme-texts);
     i { opacity: 0.3; }
 }
+
+
+// --- Literary Book Override for ImageView ---
+div.image-view.is-literary-book-img-view {
+    overflow: visible !important;
+    background: transparent !important;
+}

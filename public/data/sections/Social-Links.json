@@ -1,0 +1,127 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Connect with me",
+                "title_short_nav": "Socials",
+                "title_long_prefix": "Find me on",
+                "title_long": "My Social {{Networks}}"
+            },
+            "es": {
+                "title_short": "Conéctate",
+                "title_short_nav": "Redes",
+                "title_long_prefix": "Encuéntrame en",
+                "title_long": "Mis Redes {{Sociales}}"
+            },
+            "fr": {
+                "title_short": "Connectez-vous",
+                "title_short_nav": "Réseaux",
+                "title_long_prefix": "Retrouvez-moi sur",
+                "title_long": "Mes Réseaux {{Sociaux}}"
+            },
+            "ko": {
+                "title_short": "연락하기",
+                "title_short_nav": "소셜",
+                "title_long_prefix": "다음에서 찾기",
+                "title_long": "내 소셜 {{네트워크}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "link": {"href": "tel:919315447676", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Phone", "text": "+91 931-544-7676"},
+                        "es": {"title": "Teléfono", "text": "+91 931-544-7676"},
+                        "fr": {"title": "Téléphone", "text": "+91 931-544-7676"},
+                        "ko": {"title": "전화번호", "text": "+91 931-544-7676"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "link": {"href": "mailto:shuklaadarsh319@gmail.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "E-mail", "text": "shuklaadarsh319@gmail.com"},
+                        "es": {"title": "E-mail", "text": "shuklaadarsh319@gmail.com"},
+                        "fr": {"title": "E-mail", "text": "shuklaadarsh319@gmail.com"},
+                        "ko": {"title": "이메일", "text": "shuklaadarsh319@gmail.com"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "link": {"href": "https://www.linkedin.com/in/theadarshshukla/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "LinkedIn", "text": "@theadarshshukla"},
+                        "es": {"title": "LinkedIn", "text": "@theadarshshukla"},
+                        "fr": {"title": "LinkedIn", "text": "@theadarshshukla"},
+                        "ko": {"title": "링크드인", "text": "@theadarshshukla"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-brands fa-x-twitter",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "link": {"href": "https://x.com/adarshshukla___", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "X (Twitter)", "text": "@adarshshukla___"},
+                        "es": {"title": "X (Twitter)", "text": "@adarshshukla___"},
+                        "fr": {"title": "X (Twitter)", "text": "@adarshshukla___"},
+                        "ko": {"title": "X (트위터)", "text": "@adarshshukla___"}
+                    }
+                },
+                {
+                    "id": 5,
+                     "img": null,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "link": {"href": "https://github.com/The-adarshshukla", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "GitHub", "text": "@The-adarshshukla"},
+                        "es": {"title": "GitHub", "text": "@The-adarshshukla"},
+                        "fr": {"title": "GitHub", "text": "@The-adarshshukla"},
+                        "ko": {"title": "GitHub", "text": "@The-adarshshukla"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "link": {"href": "https://www.instagram.com/the_adarshshukla/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "Instagram", "text": "@the_adarshshukla"},
+                        "es": {"title": "Instagram", "text": "@the_adarshshukla"},
+                        "fr": {"title": "Instagram", "text": "@the_adarshshukla"},
+                        "ko": {"title": "인스타그램", "text": "@the_adarshshukla"}
+                    }
+                }
+            ]
+        }
+    ]
+}

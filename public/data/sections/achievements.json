@@ -52,8 +52,8 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "",
-                    "faIcon": "fa-solid fa-shield-halved",
+                    "img": "images/pictures/IBM.png",
+                    "faIcon": "",
                     "faIconColors": {
                         "bg": "#0f62fe",
                         "fill": "#EEE"
@@ -87,8 +87,8 @@
                 },
                 {
                     "id": 1,
-                    "img": "",
-                    "faIcon": "fa-solid fa-graduation-cap",
+                    "img": "images/pictures/certiprof.png",
+                    "faIcon": "",
                     "faIconColors": {
                         "bg": "#2b3847",
                         "fill": "#EEE"
@@ -122,8 +122,8 @@
                 },
                 {
                     "id": 1,
-                    "img": "",
-                    "faIcon": "fa-solid fa-database",
+                    "img": "images/pictures/mongo.png",
+                    "faIcon": "",
                     "faIconColors": {
                         "bg": "#00ED64",
                         "fill": "#001E2B"
@@ -157,8 +157,8 @@
                 },
                 {
                     "id": 1,
-                    "img": "",
-                    "faIcon": "fa-solid fa-cloud",
+                    "img": "images/pictures/micro.png",
+                    "faIcon": "",
                     "faIconColors": {
                         "bg": "#00a4ef",
                         "fill": "#EEE"
@@ -168,7 +168,7 @@
                         "month": 11
                     },
                     "link": {
-                        "href": "https://learn.microsoft.com/api/achievements/share/en-in/AdarshShukla-4371/YPQ4U6SR?sharingId=D96993FF3C1FDBA1",
+                        "href": "https://learn.microsoft.com/api/achievements/share/en-in/theadarshshukla/YPQ4U6SR?sharingId=D96993FF3C1FDBA1",
                         "tooltipString": "see_certification"
                     },
                     "locales": {

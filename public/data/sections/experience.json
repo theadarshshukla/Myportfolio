@@ -11,13 +11,13 @@
                 "title_short": "अनुभव",
                 "title_short_nav": "अनुभव",
                 "title_long_prefix": "यह मेरा",
-                "title_long": "{{कार्य}} अनुभव"
+                "title_long": "{{पेशेवर}} अनुभव"
             },
             "ur": {
                 "title_short": "تجربہ",
                 "title_short_nav": "تجربہ",
                 "title_long_prefix": "یہ میرا",
-                "title_long": "{{کام کا}} تجربہ"
+                "title_long": "{{پیشہ ورانہ}} تجربہ"
             },
             "es": {
                 "title_short": "Experiencia",
@@ -27,7 +27,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -38,73 +37,251 @@
                 "order_items_sort": "dateStart"
             },
             "items": [
-               
                 {
                     "id": 1,
-                    "img": "images/pictures/fresher.png",
-                    "faIcon": "fa-brands fa-apple",
-                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
-                    "dateStart": {"year": 2024, "month": 8},
+                    "img": "images/pictures/intern.png",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "#0d6efd", "fill": "#FFF"},
+                    "dateStart": {"year": 2026, "month": 9},
                     "dateEnd": {"now": true},
                     "locales": {
                         "en": {
-                            "title": "{{Fresher}} But Aspiring Data Analyst",
+                            "title": "Data Science {{Virtual Intern}}",
                             "province": "Noida",
                             "country": "India",
-                            "institution": "Maharishi University of Information Technology",
-                            "text": "A fresher with a strong passion for data analysis, eager to apply academic knowledge in real-world scenarios. Skilled in Excel, SQL, Python, and Power BI, with a foundation in data cleaning, visualization, and statistical analysis. Dedicated to continuous learning and delivering actionable insights from complex datasets. My role included:",
+                            "institution": "QSkill",
+                            "text": "Serving as a virtual Data Science intern, executing data analytics and visualization tasks on real-world datasets using Python, Pandas, Matplotlib, and Seaborn to derive actionable business insights.",
                             "list": [
-                                "Proficient in data analysis tools: Excel, Power BI, SQL, and Python.",
-                                "Strong understanding of data cleaning, transformation, and visualization.",
-                                "Enthusiastic learner with a problem-solving mindset."
-                               
+                                "Performed exploratory data analysis (EDA) on retail and sales datasets.",
+                                "Built interactive data visualisations and analytical reports.",
+                                "Applied Python libraries like Pandas and NumPy for data cleaning and manipulation."
                             ],
-                            "tags": ["Data Analysis", "Data Cleaning", "Data Visualization"]
+                            "tags": ["Python", "Data Analysis", "Pandas", "Matplotlib", "Seaborn"]
                         },
                         "hi": {
-                            "title": "{{सीनियर बैकएंड}} डेवलपर",
-                            "province": "कैलिफोर्निया",
-                            "country": "अमेरिका",
-                            "institution": "Apple Inc",
-                            "text": "Apple की सेवाओं के लिए बैकएंड समाधानों को डिज़ाइन और कार्यान्वित करने के लिए डेवलपर्स की एक टीम का नेतृत्व कर रहा हूँ, जिस पर ध्यान केंद्रित किया गया है:",
+                            "title": "डेटा साइंस {{वर्चुअल इंटर्न}}",
+                            "province": "नोएडा",
+                            "country": "भारत",
+                            "institution": "QSkill",
+                            "text": "वर्चुअल डेटा साइंस इंटर्न के रूप में कार्यरत, वास्तविक डेटासेट पर Python, Pandas, Matplotlib और Seaborn का उपयोग करके डेटा एनालिटिक्स और विज़ुअलाइज़ेशन कार्य निष्पादित कर रहे हैं।",
                             "list": [
-                                "सुरक्षा",
-                                "वैश्विक स्तर पर लाखों उपयोगकर्ताओं को संभालने के लिए स्केलेबिलिटी",
-                                "RESTful APIs विकसित करना",
-                                "PostgreSQL के साथ डेटाबेस प्रदर्शन को अनुकूलित करना",
-                                "Swift, PHP और GraphQL के साथ सेवाएँ बनाना"
+                                "रिटेल और सेल्स डेटासेट पर एक्सप्लोरेटरी डेटा एनालिसिस (EDA) किया।",
+                                "इंटरैक्टिव डेटा विज़ुअलाइज़ेशन और एनालिटिकल रिपोर्ट तैयार की।",
+                                "डेटा क्लीनिंग और मैनिपुलेशन के लिए Pandas और NumPy का उपयोग किया।"
                             ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "tags": ["Python", "Data Analysis", "Pandas", "Matplotlib", "Seaborn"]
                         },
                         "ur": {
-                            "title": "{{سینئر بیک اینڈ}} ڈویلپر",
-                            "province": "کیلیفورنیا",
-                            "country": "امریکہ",
-                            "institution": "Apple Inc",
-                            "text": "Apple کی خدمات کے لیے بیک اینڈ حل ڈیزائن اور نافذ کرنے کے لیے ڈویلپرز کی ایک ٹیم کی قیادت کر رہا ہوں، جس میں درج ذیل پر توجہ دی گئی ہے:",
+                            "title": "ڈیٹا سائنس {{ورچوئل انٹرن}}",
+                            "province": "نوئیডা",
+                            "country": "بھارت",
+                            "institution": "QSkill",
+                            "text": "ورچوئل ڈیٹا سائنس انٹرن کے طور پر کام کرتے ہوئے، حقیقی ڈیٹا سیٹس پر Python، Pandas، Matplotlib اور Seaborn کا استعمال کرتے ہوئے ڈیٹا تجزیہ اور ویژ্যুয়ালাইজেশন کے فرائض انجام دے रहे हैं।",
                             "list": [
-                                "سیکیورٹی",
-                                "عالمی سطح پر لاکھوں صارفین کو سنبھالنے کے لیے اسکیل ایبلٹی",
-                                "RESTful APIs تیار کرنا",
-                                "PostgreSQL کے ساتھ ڈیٹا بیس کی کارکردگی کو بہتر بنانا",
-                                "Swift، PHP اور GraphQL کے ساتھ خدمات کی تعمیر"
+                                "ریٹیل اور سیلز ڈیٹا سیٹس پر ای ڈی اے (EDA) انجام دیا۔",
+                                "انٹرایکティブ ڈیٹا ویژ্যুয়ালাইজেশন اور تجزیاتی رپورٹس تیار کیں۔",
+                                "ڈیٹا کی صفाई اور ہیرا پھیری کے لیے Pandas اور NumPy کا استعمال کیا۔"
                             ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "tags": ["Python", "Data Analysis", "Pandas", "Matplotlib", "Seaborn"]
                         },
                         "es": {
-                            "title": "Desarrollador {{Senior Backend}}",
-                            "province": "California",
-                            "country": "EE. UU.",
-                            "institution": "Apple Inc",
-                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
+                            "title": "Intern de {{Ciencia de Datos}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "QSkill",
+                            "text": "Trabajando como intern virtual de Ciencia de Datos, ejecutando tareas de análisis y visualización utilizando Python, Pandas, Matplotlib y Seaborn.",
                             "list": [
-                                "Seguridad",
-                                "Escalabilidad para manejar millones de usuarios a nivel global",
-                                "Desarrollo de APIs RESTful",
-                                "Optimización del rendimiento de bases de datos con PostgreSQL",
-                                "Creación de servicios con Swift, PHP y GraphQL"
+                                "Realización de análisis exploratorio de datos (EDA) en conjuntos de datos.",
+                                "Construcción de visualizaciones de datos interactivas y reportes analíticos.",
+                                "Aplicación de librerías de Python para la limpieza y manipulación de datos."
                             ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "tags": ["Python", "Data Analysis", "Pandas", "Matplotlib", "Seaborn"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/Author.png",
+                    "faIcon": "fa-solid fa-feather-pointed",
+                    "faIconColors": {"bg": "#6f42c1", "fill": "#FFF"},
+                    "dateStart": {"year": 2026, "month": 8},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Published Author & {{Literary Creator}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Swatantra Prakashan & KDP",
+                            "text": "Authored and published a debut Hindi novella titled 'इलाहाबाद की संगिनी' (ISBN: 9789334496499) and founded 'Apna Sahitya', blending technical logic with creative storytelling.",
+                            "list": [
+                                "Published globally through Swatantra Prakashan and Amazon Kindle Direct Publishing.",
+                                "Designed and developed 'Apna Sahitya', a self-hosted digital web platform for Hindi literature.",
+                                "Bridging analytical precision with poetic prose and literary expression."
+                            ],
+                            "tags": ["Creative Writing", "Publishing", "Novella", "Digital Archiving"]
+                        },
+                        "hi": {
+                            "title": "स्वतंत्र लेखक एवं {{साहित्यकार}}",
+                            "province": "नोएडा",
+                            "country": "भारत",
+                            "institution": "स्वतंत्र प्रकाशन व अमेज़ॅन KDP",
+                            "text": "हिंदी उपन्यास 'इलाहाबाद की संगिनी' (ISBN: 9789334496499) के लेखक और डिजिटल साहित्यिक प्लेटफॉर्म 'अपना साहित्य' के संस्थापक।",
+                            "list": [
+                                "स्वतंत्र प्रकाशन और अमेज़ॅन किंडल के माध्यम से वैश्विक स्तर पर पुस्तक प्रकाशित।",
+                                "हिंदी साहित्य के संरक्षण के लिए 'अपना साहित्य' डिजिटल वेब प्लेटफॉर्म का विकास।",
+                                "तकनीकी तर्क और रचनात्मक कहानी कहने की कला का अनूठा संगम।"
+                            ],
+                            "tags": ["Creative Writing", "Publishing", "Novella", "Digital Archiving"]
+                        },
+                        "ur": {
+                            "title": "مصنف اور {{ادبی تخلیق کار}}",
+                            "province": "نوئیডা",
+                            "country": "بھارت",
+                            "institution": "Swatantra Prakashan & KDP",
+                            "text": "ہندی ناول 'इलाहाबाद की संगिनी' (ISBN: 9789334496499) کے مصنف اور 'अपना साहित्य' ڈیجیٹل پلیٹ فارم کے بانی۔",
+                            "list": [
+                                "سوتنتر پرکاشন اور ایمیزون کے ذریعے عالمی سطح پر کتاب شائع کی۔",
+                                "ہندی ادب کے لیے 'अपना साहित्य' ڈیجیٹل ویب پلیٹ فارم ڈیزائن اور تیار کیا۔",
+                                "تکنیکی منطق اور تخلیقی صلاحیتوں کا امتزاج۔"
+                            ],
+                            "tags": ["Creative Writing", "Publishing", "Novella", "Digital Archiving"]
+                        },
+                        "es": {
+                            "title": "Autor Publicado y {{Creador Literario}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Swatantra Prakashan & KDP",
+                            "text": "Autor y publicación de la novela corta 'इलाहाबाद की संगिनी' (ISBN: 9789334496499) y fundador de 'Apna Sahitya'.",
+                            "list": [
+                                "Publicado globalmente a través de Swatantra Prakashan y Amazon KDP.",
+                                "Diseño y desarrollo de 'Apna Sahitya', una plataforma web digital.",
+                                "Fusión de la precisión analítica con la prosa poética."
+                            ],
+                            "tags": ["Creative Writing", "Publishing", "Novella", "Digital Archiving"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/Fullstack.png",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#20c997", "fill": "#FFF"},
+                    "dateStart": {"year": 2025, "month": 6},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Full-Stack & AI {{Project Developer}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Self-Employed / Open Source",
+                            "text": "Building innovative web applications, computer vision security tools, and interactive data analytics dashboards using modern tech stacks.",
+                            "list": [
+                                "Developed 'OmniGuard' and 'FakeShield' for multi-modal content verification using Python and FastAPI.",
+                                "Created an interactive IPL Cricket Analytics Dashboard in Power BI with complex DAX measures.",
+                                "Engineered a computer vision anti-sleep alarm system utilizing Python, OpenCV, and Pygame."
+                            ],
+                            "tags": ["Python", "React", "Power BI", "OpenCV", "Full-Stack"]
+                        },
+                        "hi": {
+                            "title": "फुल-स्टैक और एआई {{प्रोजेक्ट डेवलपर}}",
+                            "province": "नोएडा",
+                            "country": "भारत",
+                            "institution": "सेल्फ-एम्प्लॉयड / ओपन सोर्स",
+                            "text": "आधुनिक तकनीकों का उपयोग करके अभिनव वेब एप्लिकेशन, कंप्यूटर विजन सुरक्षा टूल और इंटरैक्टिव डेटा एनालिटिक्स डैशबोर्ड का निर्माण।",
+                            "list": [
+                                "पायथन और फास्टएपीआई का उपयोग करके सामग्री सत्यापन के लिए 'OmniGuard' और 'FakeShield' विकसित किया।",
+                                "जटिल DAX उपायों के साथ पावर बीआई में एक इंटरैक्टिव IPL क्रिकेट एनालिटिक्स डैशबोर्ड बनाया।",
+                                "पायथन, OpenCV और Pygame का उपयोग करके कंप्यूटर विजन एंटी-स्लीप अलार्म सिस्टम तैयार किया।"
+                            ],
+                            "tags": ["Python", "React", "Power BI", "OpenCV", "Full-Stack"]
+                        },
+                        "ur": {
+                            "title": "فُل اسٹ্যাক اور اے آئی {{پروجیکٹ ڈویلپر}}",
+                            "province": "نوئیডা",
+                            "country": "بھارت",
+                            "institution": "Self-Employed / Open Source",
+                            "text": "جدید ٹیک اسٹیکس کا استعمال کرتے ہوئے جدید ترین ویب ایپلی کیشنز، کمپیوٹر وژن سیکیورٹی ٹولز اور ڈیٹا اینالیٹکس ڈ্যাশবোর্ডز کی تعمیر۔",
+                            "list": [
+                                "Python اور FastAPI کا استعمال کرتے ہوئے 'OmniGuard' اور 'FakeShield' تیار کیا۔",
+                                "پاور بی آئی میں پیچیدہ DAX میഷേഴ്‌س کے ساتھ IPL کرکٹ اینالیٹکس ڈ্যাশবোর্ড بنایا।",
+                                "Python، OpenCV اور Pygame کا استعمال کرتے ہوئے کمپیوٹر وژن اینٹی سلیپ سسٹم بنایا।"
+                            ],
+                            "tags": ["Python", "React", "Power BI", "OpenCV", "Full-Stack"]
+                        },
+                        "es": {
+                            "title": "Desarrollador de {{Proyectos Full-Stack & AI}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Self-Employed / Open Source",
+                            "text": "Construcción de aplicaciones web innovadoras, herramientas de seguridad de visión artificial y dashboards interactivos de análisis.",
+                            "list": [
+                                "Desarrollo de 'OmniGuard' y 'FakeShield' para verificación de contenido usando Python y FastAPI.",
+                                "Creación de un Dashboard de Análisis de Críquet IPL en Power BI con medidas DAX complejas.",
+                                "Ingeniería de un sistema de alarma antisueno por visión artificial con Python, OpenCV y Pygame."
+                            ],
+                            "tags": ["Python", "React", "Power BI", "OpenCV", "Full-Stack"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/campus.png",
+                    "faIcon": "fa-solid fa-bullhorn",
+                    "faIconColors": {"bg": "#ffc107", "fill": "#000"},
+                    "dateStart": {"year": 2026, "month": 8},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Campus {{Ambassador}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "AllCollegeEvent.com (ECLearnix EdTech)",
+                            "text": "Appointed as a Campus Ambassador for a 6-month term, representing the institution, promoting student community initiatives, and facilitating academic events.",
+                            "list": [
+                                "Promoted educational events and tech community programs among university peers.",
+                                "Bridged communication between students and ed-tech platform coordinators.",
+                                "Enhanced student engagement and participation in technical symposiums."
+                            ],
+                            "tags": ["Community Building", "Leadership", "Event Management"]
+                        },
+                        "hi": {
+                            "title": "कैंपस {{एम्बेसडर}}",
+                            "province": "नोएडा",
+                            "country": "भारत",
+                            "institution": "AllCollegeEvent.com (ECLearnix EdTech)",
+                            "text": "6 महीने की अवधि के लिए कैंपस एम्बेसडर के रूप में नियुक्त, संस्थान का प्रतिनिधित्व करते हुए छात्र समुदाय की पहलों और शैक्षणिक कार्यक्रमों को बढ़ावा देना।",
+                            "list": [
+                                "विश्वविद्यालय के साथियों के बीच शैक्षिक कार्यक्रमों और टेक कम्युनिटी प्रोग्राम का प्रचार किया।",
+                                "छात्रों और एड-टेक प्लेटफॉर्म समन्वयकों के बीच संवाद स्थापित किया।",
+                                "तकनीकी संगोष्ठियों में छात्र जुड़ाव और भागीदारी को बढ़ाया।"
+                            ],
+                            "tags": ["Community Building", "Leadership", "Event Management"]
+                        },
+                        "ur": {
+                            "title": "کیمپس {{ایمباسڈر}}",
+                            "province": "نوئیডা",
+                            "country": "بھارت",
+                            "institution": "AllCollegeEvent.com (ECLearnix EdTech)",
+                            "text": "6 ماہ کی مدت کے لیے کیمپس ایمباسڈر کے طور پر مقرر، ادارے کی نمائندگی کرتے ہوئے طلباء کی کمیونٹی کے اقدامات اور تعلیمی پروگراموں کو فروغ دینا।",
+                            "list": [
+                                "یونیورسٹی کے ساتھیوں میں تعلیمی تقریبات اور ٹیک کمیونٹی پروگراموں کی تشہیر کی۔",
+                                "طلباء اور ایڈ ٹیک پلیٹ فارم کوآرਡੀنیٹرز کے درمیان رابطہ قائم کیا۔",
+                                "تکنیکی سیمینارز میں طلباء کی شمولیت اور شرکت کو بڑھایا۔"
+                            ],
+                            "tags": ["Community Building", "Leadership", "Event Management"]
+                        },
+                        "es": {
+                            "title": "Embajador de {{Campus}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "AllCollegeEvent.com (ECLearnix EdTech)",
+                            "text": "Designado como Embajador de Campus por un periodo de 6 meses, promoviendo iniciativas comunitarias estudiantiles y eventos académicos.",
+                            "list": [
+                                "Promoción de eventos educativos y programas comunitarios tecnológicos.",
+                                "Facilitación de la comunicación entre estudiantes y coordinadores de ed-tech.",
+                                "Fomento de la participación estudiantil en simposios técnicos."
+                            ],
+                            "tags": ["Community Building", "Leadership", "Event Management"]
                         }
                     }
                 }
@@ -112,3 +289,4 @@
         }
     ]
 }
+

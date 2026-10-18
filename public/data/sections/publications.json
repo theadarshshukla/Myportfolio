@@ -1,0 +1,601 @@
+{
+    "seo": {
+        "title": "Adarsh Shukla | Data Analyst, Software Developer, Writer & Hindi Poet and Author (@theadarshshukla)",
+        "description": "Official portfolio of Adarsh Shukla (आदर्श शुक्ला) - Data Analyst, Computer & Data Science student at MUIT, author of 'Ilahabad ki Sangini', and Hindi poet.",
+        "canonical": "https://adarshshukla.in",
+        "keywords": "theadarshshukla, adarsh shukla data analyst, kavi adarsh shukla, poet adarsh shukla, adarsh shukla author, maharishi university of information technology, ilahabad ki sangini, python developer, Adarsh Shukla B.Tech, Adarsh Shukla MUIT, The Adarsh Shukla, Q141392257",
+        "openGraph": {
+            "type": "profile",
+            "title": "Adarsh Shukla - Data Analyst & Hindi Poet",
+            "description": "Bridging data analytics logic with creative Hindi literature and poetry.",
+            "url": "https://adarshshukla.in",
+            "image": "https://media.licdn.com/dms/image/v2/D4D03AQF3-ESUaNNwJQ/profile-displayphoto-crop_800_800/B4DaCJOZ.PGYAI-/0/1789008652415?e=1792022400&v=beta&t=Pbxutig7oIqVI9q-Luyiz8hy7gqhFVDTu3c2CcB8a9c",
+            "username": "theadarshshukla",
+            "profile": {
+                "firstName": "Adarsh",
+                "lastName": "Shukla",
+                "gender": "male"
+            }
+        },
+        "twitter": {
+            "card": "summary_large_image",
+            "site": "@adarshshukla___",
+            "creator": "@adarshshukla___",
+            "title": "Adarsh Shukla | Data Analyst & Hindi Poet",
+            "description": "Official portfolio and digital footprint of Adarsh Shukla.",
+            "image": "https://media.licdn.com/dms/image/v2/D4D03AQF3-ESUaNNwJQ/profile-displayphoto-crop_800_800/B4DaCJOZ.PGYAI-/0/1789008652415?e=1792022400&v=beta&t=Pbxutig7oIqVI9q-Luyiz8hy7gqhFVDTu3c2CcB8a9c"
+        },
+        "schemaMarkup": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Person",
+                    "@id": "https://adarshshukla.in",
+                    "name": "Adarsh Shukla",
+                    "givenName": "Adarsh",
+                    "familyName": "Shukla",
+                    "alternateName": [
+                        "आदर्श शुक्ला",
+                        "theadarshshukla",
+                        "Kavi Adarsh Shukla",
+                        "Poet Adarsh Shukla",
+                        "Adarsh Shukla Author",
+                        "Adarsh Shukla MUIT",
+                        "Adarsh Shukla",
+                        "the adarsh shukla",
+                        "Adarsh Shukla Data analyst"
+                    ],
+                    "description": "Data Analyst, Software Developer, MUIT Student, Hindi Poet, and Author.",
+                    "url": "https://adarshshukla.in",
+                    "image": "https://media.licdn.com/dms/image/v2/D4D03AQF3-ESUaNNwJQ/profile-displayphoto-crop_800_800/B4DaCJOZ.PGYAI-/0/1789008652415?e=1792022400&v=beta&t=Pbxutig7oIqVI9q-Luyiz8hy7gqhFVDTu3c2CcB8a9c",
+                    "jobTitle": [
+                        "Data Analyst",
+                        "Software Developer",
+                        "MUIT Student",
+                        "Hindi Poet",
+                        "Author",
+                        "Writer"
+                    ],
+                    "worksFor": {
+                        "@type": "CollegeOrUniversity",
+                        "name": "Maharishi University of Information Technology",
+                        "sameAs": "https://www.muit.in"
+                    },
+                    "alumniOf": {
+                        "@type": "EducationalOrganization",
+                        "name": "Maharishi University of Information Technology"
+                    },
+                    "birthPlace": {
+                        "@type": "Place",
+                        "name": "Ayodhya, Uttar Pradesh, India"
+                    },
+                    "homeLocation": {
+                        "@type": "Place",
+                        "name": "Noida, Uttar Pradesh, India"
+                    },
+                    "sameAs": [
+                        "https://www.wikidata.org/wiki/Q141392257",
+                        "https://www.linkedin.com/in/theadarshshukla/",
+                        "https://github.com/Theadarshshukla",
+                        "https://www.instagram.com/the_adarshshukla",
+                        "https://x.com/adarshshukla___",
+                        "https://leetcode.com/theadarshshukla",
+                        "https://www.hackerrank.com/theadarshshukla",
+                        "https://dev.to/theadarshshukla",
+                        "https://medium.com/@theadarshshukla",
+                        "https://sahityapedia.com/author/theadarshshukla"
+                    ],
+                    "knowsAbout": [
+                        "Data Analytics",
+                        "Java (Programming Language)",
+                        "Python (Programming Language)",
+                        "SQL",
+                        "Power BI",
+                        "Hindi Literature",
+                        "Hindi Poetry",
+                        "Prompt Engineering",
+                        "Software Development"
+                    ],
+                    "mainEntityOfPage": "https://adarshshukla.in"
+                },
+                {
+                    "@type": "Book",
+                    "@id": "https://adarshshukla.in/#book",
+                    "name": "इलाहाबाद की संगिनी (Ilahabad ki Sangini)",
+                    "author": {
+                        "@id": "https://adarshshukla.in/"
+                    },
+                    "isbn": "9789334496499",
+                    "inLanguage": "hi",
+                    "genre": "Hindi Novella / Literature"
+                }
+            ]
+        }
+    },
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Publication",
+                "title_short_nav": "Literary Work",
+                "title_long_prefix": "Literary Work",
+                "title_long": "Author of {{'' ilahabad ki sangini ''}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Adarsh Shukla!}}"
+            },
+            "hi": {
+                "title_short": "स्वागत है!",
+                "title_short_nav": "मेरे बारे में",
+                "title_long_prefix": "नमस्ते...",
+                "title_long": "मैं {{आदर्श शुक्ला}} हूँ!"
+            },
+            "ur": {
+                "title_short": "خوش آمدید!",
+                "title_short_nav": "میرے بارے میں",
+                "title_long_prefix": "ہیلو...",
+                "title_long": "میں {{آदर्श شکلا}} ہوں!"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "मेरी मौलिक कृति {{“इलाहाबाद की संगिनी”}}"
+                },
+                "es": {
+                    "title": "{{Un poco}} sobre mí..."
+                },
+                "hi": {
+                    "title": "मेरे बारे में {{कुछ बातें}}..."
+                },
+                "ur": {
+                    "title": "میرے بارے میں {{کچھ باتیں}}..."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/FrontCover.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p><b>{{इलाहाबाद की संगिनी}}</b></p><p>'इलाहाबाद की संगिनी' केवल एक पुस्तक या उपन्यास नहीं है, बल्कि यह संगम नगरी 'प्रयागराज' की उन गलियों, पुरानी स्मृतियों, प्रेम, विरह और सांस्कृतिक अनुभूति का एक बेहद भावुक दस्तावेज है। यह कृति उन यादों को उजागर करती है जो वक्त के साथ धुंधली हो गई हैं, और पाठकों को शुरू से अंत तक अपनी गहरी कहानी और रिश्तों से बांधे रखती है।</p><p>एक साहित्यकार के नाते मेरी यह रचना मेरी रचनात्मक दुनिया को दर्शाती है। यह इस बात का भी प्रतीक है कि तकनीक और साहित्यिक के बीच एक बेहतरीन और संतुलित तालमेल बैठाया जा सकता है।</p><p>मेरा साहित्यिक कविताएँ और रचनाएँ लिखने का उद्देश्य हमेशा पाठकों के साथ एक सच्चा और गहरा जुड़ाव स्थापित करना रहा है। यह पुस्तक उसी अनोखी सृजनात्मक यात्रा का एक महत्वपूर्ण पड़ाव है, जो न केवल आपके दिल को छू लेगी बल्कि साहित्यिक जगत में एक नया अनुभव भी देगी।</p>"
+                        },
+                        "es": {
+                            "text": "<p>Hola, soy <b>{{ADARSH SHUKLA}}</b>, analista de datos y estudiante de Informática y Ciencia de Datos en la Universidad Maharishi de Tecnología de la Información (MUIT).</p><p>Combino la analítica de datos, Python, SQL y Power BI con mi faceta creativa como poeta y escritor en hindi para convertir números en estrategias claras.</p><p>¡Espero con interés [[colaborar contigo!]]</p>"
+                        },
+                        "hi": {
+                            "text": "<p>नमस्ते, मैं <b>{{आदर्श शुक्ला}}</b> हूँ, एक डेटा एनालिस्ट और महर्षि यूनिवर्सिटी ऑफ़ इंफॉर्मेशन टेक्नोलॉजी (MUIT) में कंप्यूटर और डेटा साइंस का छात्र।</p><p>मैं पाइथन, SQL, पावर BI और डेटा एनालिटिक्स के जरिए बिजनेस इनसाइट्स निकालने के साथ-साथ एक हिंदी कवि और लेखक के रूप में अपनी रचनात्मकता को भी जोड़ता हूँ।</p><p>मैं आपके साथ [[सहयोग करने के लिए]] उत्सुक हूँ!</p>"
+                        },
+                        "ur": {
+                            "text": "<p>ہیلو، میں <b>{{آدرس شکلا}}</b> ہوں، ایک ڈیٹا تجزیہ کار اور مہارشی یونیورسٹی آف انفارمیشن ٹیکنالوجی (MUIT) میں کمپیوٹر اور ڈیٹا سائنس کا طالب علم۔</p><p>میں پائیتھون، SQL، پاور بی آئی اور ڈیٹا اینالیٹکس کے ذریعے کاروباری بصیرت تلاش کرنے کے ساتھ ساتھ ایک ہندی شاعر اور لکھاری کی تخلیقیت کو بھی جوڑتا ہوں۔</p><p>میں آپ کے ساتھ [[اشتراک کرنے کے لیے]] منتظر ہوں!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+       {
+  "id": 2,
+  "component": "ArticlePublication",
+  "locales": {
+    "en": {
+      "title": "Author's Featured Work"
+    },
+    "hi": {
+      "title": "लेखक की प्रमुख कृति"
+    },
+    "es": {
+      "title": "Obra destacada del autor"
+    },
+    "ur": {
+      "title": "مصنف کی نمایاں تخلیق"
+    }
+  },
+  "settings": {
+    "order_items_by": "id",
+    "order_items_sort": "asc"
+  },
+  "items": [
+    {
+      "id": 1,
+      "type": "book",
+      "frontCover": "images/pictures/FrontCover.jpg",
+      "backCover": "images/pictures/BackCover.png",
+      "imageAlt": "इलाहाबाद की संगिनी — आदर्श शुक्ला की हिंदी साहित्यिक कृति",
+      "locales": {
+        "en": {
+          "title": "इलाहाबाद की संगिनी",
+          "subtitle": "A Hindi Literary Work by Adarsh Shukla",
+          "text": "<p><strong>“इलाहाबाद की संगिनी”</strong> आदर्श शुक्ला की मौलिक हिंदी साहित्यिक कृति है, जो इलाहाबाद (प्रयागराज) की सांस्कृतिक पृष्ठभूमि, स्मृतियों, भावनाओं और मानवीय रिश्तों को संवेदनशील कथा के माध्यम से प्रस्तुत करती है।</p><p>यह रचना शहर की गलियों, उसके वातावरण, जीवन से जुड़े अनुभवों और उन भावनात्मक क्षणों को शब्द देती है जो समय के साथ स्मृतियों का हिस्सा बन जाते हैं।</p>",
+          "authorNote": "A literary work that brings together place, memory, emotion and human relationships through storytelling."
+        },
+        "hi": {
+          "title": "इलाहाबाद की संगिनी",
+          "subtitle": "आदर्श शुक्ला की मौलिक हिंदी साहित्यिक कृति",
+          "text": "<p><strong>“इलाहाबाद की संगिनी”</strong> आदर्श शुक्ला की मौलिक हिंदी साहित्यिक कृति है, जो इलाहाबाद (प्रयागराज) की सांस्कृतिक पृष्ठभूमि, स्मृतियों, भावनाओं और मानवीय रिश्तों को एक संवेदनशील कथा के रूप में प्रस्तुत करती है।</p><p>यह रचना शहर की गलियों, उसके वातावरण और जीवन से जुड़े अनुभवों को कहानी के माध्यम से शब्द देती है। इसमें स्मृतियों और मानवीय संबंधों की भावनात्मक परतों को सहज और साहित्यिक भाषा में व्यक्त किया गया है।</p>",
+          "authorNote": "शहर, स्मृति, भावना और रिश्तों को शब्दों के माध्यम से जोड़ती एक साहित्यिक यात्रा।"
+        },
+        "es": {
+          "title": "इलाहाबाद की संगिनी",
+          "subtitle": "Obra literaria en hindi de Adarsh Shukla",
+          "text": "<p>Una obra literaria original en hindi inspirada en Allahabad (Prayagraj), sus recuerdos, cultura, emociones y relaciones humanas.</p>",
+          "authorNote": "Una narrativa centrada en el lugar, la memoria y las emociones humanas."
+        },
+        "ur": {
+          "title": "इलाहाबाद की संगिनी",
+          "subtitle": "آدرش شکلا کی ہندی ادبی تخلیق",
+          "text": "<p>یہ آدرش شکلا کی اصل ہندی ادبی تخلیق ہے جو الہ آباد (پریاگ راج) کی ثقافت، یادوں، جذبات اور انسانی رشتوں کو کہانی کے ذریعے پیش کرتی ہے۔</p>",
+          "authorNote": "شہر، یاد، جذبات اور انسانی رشتوں کو کہانی کے ذریعے پیش کرنے والی ادبی تخلیق۔"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "meta",
+      "icon": "fa-solid fa-user-pen",
+      "key": "author",
+      "locales": {
+        "en": {
+          "title": "Author",
+          "text": "Adarsh Shukla"
+        },
+        "hi": {
+          "title": "लेखक",
+          "text": "आदर्श शुक्ला"
+        },
+        "es": {
+          "title": "Autor",
+          "text": "Adarsh Shukla"
+        },
+        "ur": {
+          "title": "مصنف",
+          "text": "آدرش شکلا"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "meta",
+      "icon": "fa-solid fa-language",
+      "key": "language",
+      "locales": {
+        "en": {
+          "title": "Language",
+          "text": "Hindi"
+        },
+        "hi": {
+          "title": "भाषा",
+          "text": "हिंदी"
+        },
+        "es": {
+          "title": "Idioma",
+          "text": "Hindi"
+        },
+        "ur": {
+          "title": "زبان",
+          "text": "ہندی"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "meta",
+      "icon": "fa-solid fa-barcode",
+      "key": "isbn",
+      "locales": {
+        "en": {
+          "title": "ISBN",
+          "text": "9789334496499"
+        },
+        "hi": {
+          "title": "ISBN",
+          "text": "9789334496499"
+        },
+        "es": {
+          "title": "ISBN",
+          "text": "9789334496499"
+        },
+        "ur": {
+          "title": "ISBN",
+          "text": "9789334496499"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "meta",
+      "icon": "fa-solid fa-calendar-days",
+      "key": "edition",
+      "locales": {
+        "en": {
+          "title": "Edition",
+          "text": "2026"
+        },
+        "hi": {
+          "title": "संस्करण",
+          "text": "2026"
+        },
+        "es": {
+          "title": "Edición",
+          "text": "2026"
+        },
+        "ur": {
+          "title": "ایڈیشن",
+          "text": "2026"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "meta",
+      "icon": "fa-solid fa-book-open",
+      "key": "format",
+      "locales": {
+        "en": {
+          "title": "Format",
+          "text": "Hindi Literary Work"
+        },
+        "hi": {
+          "title": "प्रारूप",
+          "text": "हिंदी साहित्यिक कृति"
+        },
+        "es": {
+          "title": "Formato",
+          "text": "Obra literaria en hindi"
+        },
+        "ur": {
+          "title": "فارمیٹ",
+          "text": "ہندی ادبی تخلیق"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "type": "meta",
+      "icon": "fa-solid fa-location-dot",
+      "key": "setting",
+      "locales": {
+        "en": {
+          "title": "Literary Setting",
+          "text": "Allahabad · Prayagraj"
+        },
+        "hi": {
+          "title": "साहित्यिक पृष्ठभूमि",
+          "text": "इलाहाबाद · प्रयागराज"
+        },
+        "es": {
+          "title": "Contexto literario",
+          "text": "Allahabad · Prayagraj"
+        },
+        "ur": {
+          "title": "ادبی پس منظر",
+          "text": "الہ آباد · پریاگ راج"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "type": "meta",
+      "icon": "fa-solid fa-feather-pointed",
+      "key": "genre",
+      "locales": {
+        "en": {
+          "title": "Literary Themes",
+          "text": "Memories · Emotions · Relationships"
+        },
+        "hi": {
+          "title": "साहित्यिक विषय",
+          "text": "स्मृतियाँ · भावनाएँ · रिश्ते"
+        },
+        "es": {
+          "title": "Temas literarios",
+          "text": "Recuerdos · Emociones · Relaciones"
+        },
+        "ur": {
+          "title": "ادبی موضوعات",
+          "text": "یادیں · جذبات · رشتے"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "type": "meta",
+      "icon": "fa-solid fa-book-open-reader",
+      "key": "reading",
+      "locales": {
+        "en": {
+          "title": "Digital Reading",
+          "text": "Interactive Flipbook"
+        },
+        "hi": {
+          "title": "डिजिटल रीडिंग",
+          "text": "इंटरैक्टिव फ्लिपबुक"
+        },
+        "es": {
+          "title": "Lectura digital",
+          "text": "Flipbook interactivo"
+        },
+        "ur": {
+          "title": "ڈیجیٹل مطالعہ",
+          "text": "انٹرایکٹو فلپ بک"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "details",
+      "icon": "fa-solid fa-circle-info",
+      "locales": {
+        "en": {
+          "title": "About the Book",
+          "text": "<p><strong>इलाहाबाद की संगिनी</strong> is a Hindi literary work centered around the cultural atmosphere, memories and emotional experiences associated with Allahabad (Prayagraj).</p><p>The work explores the connection between a city and the memories people create within it, presenting human relationships and emotions through a literary narrative.</p>"
+        },
+        "hi": {
+          "title": "कृति के बारे में",
+          "text": "<p><strong>“इलाहाबाद की संगिनी”</strong> एक मौलिक हिंदी साहित्यिक कृति है, जिसकी पृष्ठभूमि इलाहाबाद (प्रयागराज) की सांस्कृतिक अनुभूति और उससे जुड़ी स्मृतियाँ हैं।</p><p>यह रचना शहर और मनुष्य के बीच बने भावनात्मक संबंधों, बीते हुए अनुभवों तथा मानवीय रिश्तों को कथा के माध्यम से प्रस्तुत करती है।</p>"
+        },
+        "es": {
+          "title": "Sobre la obra",
+          "text": "<p>Una obra literaria en hindi centrada en la cultura, los recuerdos y las experiencias emocionales relacionadas con Allahabad (Prayagraj).</p>"
+        },
+        "ur": {
+          "title": "تخلیق کے بارے میں",
+          "text": "<p>یہ ہندی ادبی تخلیق الہ آباد (پریاگ راج) کی ثقافت، یادوں اور انسانی جذبات کے گرد گھومتی ہے۔</p>"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "type": "links",
+      "icon": "fa-solid fa-link",
+      "locales": {
+        "en": {
+          "title": "Read & Discover",
+          "text": "Explore the literary work through digital reading and publication platforms."
+        },
+        "hi": {
+          "title": "पढ़ें और जानें",
+          "text": "इस साहित्यिक कृति को उपलब्ध डिजिटल रीडिंग और प्रकाशन प्लेटफॉर्म्स के माध्यम से जानें।"
+        },
+        "es": {
+          "title": "Leer y descubrir",
+          "text": "Explora la obra mediante las plataformas digitales disponibles."
+        },
+        "ur": {
+          "title": "پڑھیں اور دریافت کریں",
+          "text": "دستیاب ڈیجیٹل پلیٹ فارمز کے ذریعے اس تخلیق کو دریافت کریں۔"
+        }
+      },
+      "links": [
+        {
+          "id": "amazon",
+          "icon": "fa-brands fa-amazon",
+          "className": "amazon",
+          "href": "https://www.amazon.in",
+          "target": "_blank",
+          "locales": {
+            "en": {
+              "title": "Amazon"
+            },
+            "hi": {
+              "title": "Amazon"
+            }
+          }
+        },
+        {
+          "id": "google-books",
+          "icon": "fa-solid fa-book-open",
+          "className": "google",
+          "href": "https://books.google.com",
+          "target": "_blank",
+          "locales": {
+            "en": {
+              "title": "Google Books"
+            },
+            "hi": {
+              "title": "Google Books"
+            }
+          }
+        },
+        {
+          "id": "flipbook",
+          "icon": "fa-solid fa-book-open-reader",
+          "className": "flipbook",
+          "href": "#flipbook",
+          "target": "_self",
+          "locales": {
+            "en": {
+              "title": "Read Flipbook"
+            },
+            "hi": {
+              "title": "फ्लिपबुक पढ़ें"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "works",
+      "icon": "fa-solid fa-feather",
+      "locales": {
+        "en": {
+          "title": "Other Literary Works",
+          "text": "Selected writing, poetry and literary projects by Adarsh Shukla."
+        },
+        "hi": {
+          "title": "अन्य साहित्यिक रचनाएँ",
+          "text": "आदर्श शुक्ला की चुनिंदा कविताएँ, लेखन और साहित्यिक परियोजनाएँ।"
+        },
+        "es": {
+          "title": "Otras obras literarias",
+          "text": "Selección de obras y proyectos literarios."
+        },
+        "ur": {
+          "title": "دیگر ادبی تخلیقات",
+          "text": "آدرش شکلا کی منتخب ادبی تخلیقات۔"
+        }
+      },
+      "works": [
+        {
+          "id": 1,
+          "image": "images/pictures/FrontCover.jpg",
+          "locales": {
+            "en": {
+              "title": "स्मृतियों के झरोखे से",
+              "text": "इलाहाबाद के सांस्कृतिक और साहित्यिक परिवेश से जुड़ी स्मृतियों पर आधारित लेखन।"
+            },
+            "hi": {
+              "title": "स्मृतियों के झरोखे से",
+              "text": "इलाहाबाद के सांस्कृतिक और साहित्यिक परिवेश से जुड़ी स्मृतियों पर आधारित लेखन।"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "image": "images/pictures/FrontCover.jpg",
+          "locales": {
+            "en": {
+              "title": "शब्दों की छाँव में",
+              "text": "जीवन, भावनाओं और अनुभवों को शब्दों में पिरोती हुई चुनिंदा कविताएँ।"
+            },
+            "hi": {
+              "title": "शब्दों की छाँव में",
+              "text": "जीवन, भावनाओं और अनुभवों को शब्दों में पिरोती हुई चुनिंदा कविताएँ।"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "image": "images/pictures/FrontCover.jpg",
+          "locales": {
+            "en": {
+              "title": "इलाहाबाद की यादें",
+              "text": "शहर, स्मृतियों और बीते हुए समय की भावनात्मक झलकियाँ।"
+            },
+            "hi": {
+              "title": "इलाहाबाद की यादें",
+              "text": "शहर, स्मृतियों और बीते हुए समय की भावनात्मक झलकियाँ।"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+    ]
+}

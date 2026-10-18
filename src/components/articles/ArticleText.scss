@@ -6,11 +6,12 @@ div.article-text-items {
     --row-gap: 20px;
     --avatar-size: 285px;
     --spacing: 35px;
-    @include media-breakpoint-down(xxl) {--avatar-size: 270px}
-    @include media-breakpoint-down(xl) {--avatar-size: 200px}
-    @include media-breakpoint-down(lg) {--avatar-size: 180px}
-    @include media-breakpoint-down(md) {--avatar-size: 150px}
-    @include media-breakpoint-down(sm) {--avatar-size: 130px}
+
+    @include media-breakpoint-down(xxl) { --avatar-size: 270px; }
+    @include media-breakpoint-down(xl) { --avatar-size: 200px; }
+    @include media-breakpoint-down(lg) { --avatar-size: 180px; }
+    @include media-breakpoint-down(md) { --avatar-size: 150px; }
+    @include media-breakpoint-down(sm) { --avatar-size: 130px; }
 
     display: flex;
     flex-direction: column;
@@ -19,17 +20,19 @@ div.article-text-items {
 div.article-text-item {
     display: flex;
     align-items: center;
+    margin-top: calc(var(--row-gap) / 2);
 
-    margin-top: calc(var(--row-gap)/2);
     @include media-breakpoint-up($column-breakpoint) {
-        margin-bottom: calc(var(--row-gap)/2);
+        margin-bottom: calc(var(--row-gap) / 2);
     }
+
     &:not(:last-child) {
-        margin-bottom: calc(var(--row-gap)/2);
+        margin-bottom: calc(var(--row-gap) / 2);
     }
 
     @include media-breakpoint-down($column-breakpoint) {
         flex-direction: column;
+
         &:not(:last-child) {
             margin-bottom: 30px;
         }
@@ -41,13 +44,13 @@ div.article-text-avatar-view-wrapper {
     align-items: center;
     justify-content: center;
 
-    min-width: var(--avatar-size);
-    min-height: calc(var(--avatar-size)/1.2);
+    /* Yaha height ko width ke barabar karein taaki image chapti na ho */
     width: var(--avatar-size);
-    height: calc(var(--avatar-size)/1.2);
+    height: var(--avatar-size); 
 
-    margin-left: calc(var(--spacing)/4);
+    margin-left: calc(var(--spacing) / 4);
     margin-right: var(--spacing);
+
     @include media-breakpoint-down($column-breakpoint) {
         margin-left: 5px;
         margin-right: 0;
@@ -55,12 +58,22 @@ div.article-text-avatar-view-wrapper {
 }
 
 div.article-text-avatar-view {
-    height: 100%;
     width: 100%;
+    height: 100%;
+
     background-color: transparent;
     font-size: calc(var(--avatar-size) / 1.75);
+
+    /* Yeh ensure karega ki image stretch hone ki jagah proper fit ho */
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 0%; /* Agar aapki normal image round ya box wali hai toh apne hisab se adjust karein */
+    }
+
     @include media-breakpoint-down($column-breakpoint) {
-        margin-bottom: calc(var(--spacing)/2);
+        margin-bottom: calc(var(--spacing) / 2);
     }
 }
 
@@ -68,12 +81,13 @@ div.article-text-excerpt {
     direction: ltr;
     width: 100%;
     color: var(--theme-texts-light);
-
-
+    
     margin-bottom: 8px;
+
     @include media-breakpoint-down(xxl) {
         margin-bottom: 2px;
     }
+
     @include media-breakpoint-down($column-breakpoint) {
         margin: 10px 0 0;
     }
@@ -88,5 +102,178 @@ div.article-text-item-reverse {
 
     div.article-text-excerpt {
         margin-left: 20px;
+    }
+}
+
+
+/* =========================================================
+   ADVANCED NATURAL 3D BOOK (Desktop & Large screens)
+   ========================================================= */
+
+div.book-cover-wrapper {
+    perspective: 1800px;
+    perspective-origin: 50% 50%;
+    overflow: visible !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .book-cover-avatar {
+        position: relative;
+        width: 210px;
+        height: 310px;
+        max-width: 100%;
+
+        overflow: visible !important;
+        background: transparent !important;
+
+        transform-style: preserve-3d;
+        transform-origin: center center;
+
+        transform:
+            perspective(1800px)
+            rotateX(var(--rotate-x, 4deg))
+            rotateY(var(--rotate-y, 13deg))
+            translateZ(0);
+
+        transition:
+            transform 0.18s cubic-bezier(.2,.8,.2,1),
+            filter 0.35s ease;
+
+        will-change: transform, filter;
+        cursor: pointer;
+
+        filter:
+            drop-shadow(-16px 24px 25px rgba(0, 0, 0, .35))
+            drop-shadow(4px 10px 12px rgba(0, 0, 0, .18));
+
+        .image-view,
+        .image-view-img,
+        img,
+        div {
+            position: relative;
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            overflow: hidden !important;
+            border-radius: 5px 10px 10px 5px !important;
+            transform-style: preserve-3d;
+
+            box-shadow:
+                -2px 0 0 rgba(255,255,255,.18),
+                -7px 3px 0 rgba(0,0,0,.12),
+                -12px 7px 0 rgba(0,0,0,.10),
+                -18px 15px 25px rgba(0,0,0,.38),
+                -26px 24px 38px rgba(0,0,0,.20),
+                inset 7px 0 13px rgba(255,255,255,.18),
+                inset -7px 0 14px rgba(0,0,0,.28),
+                inset 0 0 12px rgba(255,255,255,.10);
+
+            transition:
+                box-shadow .25s ease,
+                border-radius .3s ease,
+                filter .25s ease;
+
+            will-change: transform, box-shadow;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 20;
+            inset: -2px;
+            pointer-events: none;
+            border-radius: 6px 16px 16px 6px;
+            background:
+                radial-gradient(
+                    circle at
+                    var(--light-x, 50%)
+                    var(--light-y, 35%),
+                    rgba(255,255,255,.42) 0%,
+                    rgba(255,255,255,.16) 10%,
+                    rgba(255,255,255,.05) 24%,
+                    transparent 45%
+                );
+            mix-blend-mode: screen;
+            opacity: 0;
+            transition: opacity .25s ease;
+            transform: translateZ(8px);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 21;
+            inset: 0;
+            pointer-events: none;
+            border-radius: 5px 15px 15px 5px;
+            border: 1px solid rgba(255,255,255,.20);
+            background:
+                linear-gradient(
+                    105deg,
+                    rgba(255,255,255,.18) 0%,
+                    transparent 20%,
+                    transparent 72%,
+                    rgba(255,255,255,.08) 100%
+                );
+            opacity: 0;
+            mix-blend-mode: screen;
+            transform: translateZ(10px);
+            transition: opacity .25s ease;
+        }
+
+        &:hover {
+            transform:
+                perspective(1800px)
+                rotateX(var(--rotate-x, 0deg))
+                rotateY(var(--rotate-y, 0deg))
+                translateY(-10px)
+                translateZ(25px)
+                scale(1.025);
+
+            filter:
+                drop-shadow(-20px 30px 32px rgba(0,0,0,.45))
+                drop-shadow(5px 14px 18px rgba(0,0,0,.22));
+
+            &::before,
+            &::after {
+                opacity: 1;
+            }
+
+            .image-view,
+            .image-view-img,
+            img,
+            div {
+                box-shadow:
+                    -2px 0 0 rgba(255,255,255,.28),
+                    -8px 3px 0 rgba(0,0,0,.14),
+                    -14px 8px 0 rgba(0,0,0,.12),
+                    -24px 20px 34px rgba(0,0,0,.45),
+                    -34px 30px 50px rgba(0,0,0,.25),
+                    inset 9px 0 18px rgba(255,255,255,.28),
+                    inset -8px 0 18px rgba(0,0,0,.34),
+                    inset 0 0 15px rgba(255,255,255,.15);
+            }
+        }
+
+        &:active {
+            transform:
+                perspective(1800px)
+                rotateX(var(--rotate-x, 0deg))
+                rotateY(var(--rotate-y, 0deg))
+                translateY(-4px)
+                translateZ(12px)
+                scale(.99);
+        }
+   }
+
+    /* =========================================================
+       MOBILE VIEW HIDE BOOK CONDITION
+       Mobile (md breakpoint aur usse choti screens) par book hide ho jayegi
+       ========================================================= */
+    @include media-breakpoint-down(md) {
+        display: none !important;
     }
 }

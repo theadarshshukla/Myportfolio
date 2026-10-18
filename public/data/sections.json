@@ -30,12 +30,17 @@
             "jsonPath": "/data/sections/experience.json",
             "faIcon": "fa-solid fa-briefcase"
         },
-       
         {
             "id": "achievements",
             "categoryId": "showcase",
             "jsonPath": "/data/sections/achievements.json",
             "faIcon": "fa-solid fa-award"
+        },
+        {
+            "id": "publications",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/publications.json",
+            "faIcon": "fa-solid fa-newspaper"
         },
         {
             "id": "updates",

@@ -127,7 +127,7 @@
     "faIcon": "fa-brands fa-x-twitter",
     "faIconColors": { "bg": "", "fill": "" },
     "label": "Adarsh Shukla",
-    "link": {"href": "https://x.com/the_idealshukla", "tooltipString": "open_website"},
+    "link": {"href": "https://x.com/adarshshukla___", "tooltipString": "open_website"},
     "copyToClipboardButton": false,
     "locales": {
         "en": {"title": "X"},
@@ -141,7 +141,7 @@
     "faIcon": "fa-brands fa-github",
     "faIconColors": { "bg": "", "fill": "" },
     "label": "@adarshshukla",
-    "link": {"href": "https://github.com/The-adarshshukla", "tooltipString": "open_website"},
+    "link": {"href": "https://github.com/Theadarshshukla", "tooltipString": "open_website"},
     "copyToClipboardButton": false,
     "locales": {
         "en": {"title": "GitHub"},

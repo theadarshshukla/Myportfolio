@@ -54,10 +54,14 @@ function ArticleTextItem({ itemWrapper }) {
         `article-text-item-reverse` :
         ``
 
+    // Yahan hum check kar rahe hain ki kya image ka path "FrontCover.jpg" hai (Jo ki aapki book hai)
+    const isBookCover = itemWrapper.img && itemWrapper.img.includes('FrontCover.jpg');
+
     return (
         <div className={`article-text-item ${positioningClass}`}>
-            <div className={`article-text-avatar-view-wrapper`}>
-                <AvatarView className={`article-text-avatar-view`}
+            {/* Agar FrontCover hai toh 'book-cover-wrapper' class lag jayegi */}
+            <div className={`article-text-avatar-view-wrapper ${isBookCover ? 'book-cover-wrapper' : ''}`}>
+                <AvatarView className={`article-text-avatar-view ${isBookCover ? 'book-cover-avatar' : ''}`}
                             src={itemWrapper.img}
                             faIcon={itemWrapper.faIconWithFallback}
                             style={itemWrapper.faIconStyle}

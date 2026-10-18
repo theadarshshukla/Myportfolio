@@ -78,20 +78,8 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
     }
 
     const _openExternalLink = () => {
-        const shortenedHref = utils.string.limitTextSize(href, 45)
-        const formattedUrl = `<br><span class="text-secondary">« <b>${shortenedHref}</b> »</span><br><br>`
-        const text = language.getString("leaving_site").replace("{url}", formattedUrl) +
-            language.getString("confirm_to_continue")
-
-        feedbacks.showConfirmationDialog(
-            language.getString("open_link"),
-            text,
-            "fa-solid fa-link",
-            () => { window.open(href, "blank") },
-            language.getString("proceed"),
-            null,
-            language.getString("cancel"),
-        )
+        // यहाँ से कन्फर्मेशन डायलॉग हटाकर सीधे विंडो ओपन कर दी गई है
+        window.open(href, "_blank")
     }
 
     return (

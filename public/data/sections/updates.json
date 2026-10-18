@@ -27,9 +27,8 @@
             }
         }
     },
-
     "articles": [
-        {
+       {
             "id": 1,
             "component": "ArticleFacts",
             "locales": {},
@@ -38,173 +37,180 @@
                 "order_items_sort": "asc"
             },
             "items": [
-    {
-        "id": 1,
-        "img": null,
-        "faIcon": "fa-solid fa-tablet-screen-button",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "02",
-                "text": "Apps Published"
-            },
-            "es": {
-                "text": "Aplicaciones Publicadas"
-            },
-            "fr": {
-                "text": "Applications Publiées"
-            },
-            "ko": {
-                "text": "출시된 앱"
-            }
-        }
-    },
-    {
-        "id": 2,
-        "img": null,
-        "faIcon": "fa-solid fa-star",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "20+",
-                "text": "Stars on GitHub"
-            },
-            "es": {
-                "text": "Estrellas en GitHub"
-            },
-            "fr": {
-                "text": "Étoiles sur GitHub"
-            },
-            "ko": {
-                "text": "GitHub의 별"
-            }
-        }
-    },
-    {
-        "id": 3,
-        "img": null,
-        "faIcon": "fa-solid fa-diagram-project",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "03",
-                "text": "Open-source projects"
-            },
-            "es": {
-                "text": "Proyectos de Código Abierto"
-            },
-            "fr": {
-                "text": "Projets Open-source"
-            },
-            "ko": {
-                "text": "오픈 소스 프로젝트"
-            }
-        }
-    },
-    {
-        "id": 4,
-        "img": null,
-        "faIcon": "fa-solid fa-laptop-code",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "5,0000+",
-                "text": "Lines of code"
-            },
-            "es": {
-                "text": "Líneas de código"
-            },
-            "fr": {
-                "text": "Lignes de code"
-            },
-            "ko": {
-                "text": "코드 라인 수"
-            }
-        }
-    },
-    {
-        "id": 5,
-        "img": null,
-        "faIcon": "fa-solid fa-award",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "15+",
-                "text": "Certifications Earned"
-            },
-            "es": {
-                "title": "15+",
-                "text": "Certificaciones Obtenidas"
-            },
-            "fr": {
-                "title": "15+",
-                "text": "Certifications Obtenues"
-            },
-            "ko": {
-                "title": "15+",
-                "text": "획득한 자격증"
-            }
-        }
-    },
-    {
-        "id": 6,
-        "img": null,
-        "faIcon": "fa-solid fa-briefcase",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "03+",
-                "text": "Years of Experience"
-            },
-            "es": {
-                "title": "03+",
-                "text": "Años de Experiencia"
-            },
-            "fr": {
-                "title": "03+",
-                "text": "Années d'Expérience"
-            },
-            "ko": {
-                "title": "03+",
-                "text": "경력 연수"
-            }
-        }
-    },
-    {
-        "id": 7,
-        "img": null,
-        "faIcon": "fa-solid fa-heart",
-        "faIconColors": {"bg": "", "fill": ""},
-        "locales": {
-            "en": {
-                "title": "Infinite",
-                "text": "Passion for learning"
-            },
-            "es": {
-                "title": "Infinita",
-                "text": "Pasión por Aprender"
-            },
-            "fr": {
-                "title": "Infinie",
-                "text": "Passion d'apprendre"
-            },
-            "ko": {
-                "title": "무한대",
-                "text": "배움에 대한 열정"
-            }
-        }
-    }
-]
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "01",
+                            "text": "Book Published"
+                        },
+                        "es": {
+                            "text": "Libro Publicado"
+                        },
+                        "fr": {
+                            "text": "Livre Publié"
+                        },
+                        "ko": {
+                            "text": "출간된 도서"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20+",
+                            "text": "Stars on GitHub"
+                        },
+                        "es": {
+                            "text": "Estrellas en GitHub"
+                        },
+                        "fr": {
+                            "text": "Étoiles sur GitHub"
+                        },
+                        "ko": {
+                            "text": "GitHub의 별"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "05+",
+                            "text": "Open-source projects"
+                        },
+                        "es": {
+                            "text": "Proyectos de Código Abierto"
+                        },
+                        "fr": {
+                            "text": "Projets Open-source"
+                        },
+                        "ko": {
+                            "text": "오픈 소스 프로젝트"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "50,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Líneas de código"
+                        },
+                        "fr": {
+                            "text": "Lignes de code"
+                        },
+                        "ko": {
+                            "text": "코드 라인 수"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-award",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "05+",
+                            "text": "Certifications Earned"
+                        },
+                        "es": {
+                            "title": "05+",
+                            "text": "Certificaciones Obtenidas"
+                        },
+                        "fr": {
+                            "title": "05+",
+                            "text": "Certifications Obtenues"
+                        },
+                        "ko": {
+                            "title": "05+",
+                            "text": "획득한 자격증"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-feather",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "100+",
+                            "text": "Poems & Literary Works"
+                        },
+                        "es": {
+                            "title": "100+",
+                            "text": "Poemas y Obras Literarias"
+                        },
+                        "fr": {
+                            "title": "100+",
+                            "text": "Poèmes et Œuvres"
+                        },
+                        "ko": {
+                            "title": "100+",
+                            "text": "작성한 시 및 문학 작품"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        },
+                        "fr": {
+                            "title": "Infinie",
+                            "text": "Passion d'apprendre"
+                        },
+                        "ko": {
+                            "title": "무한대",
+                            "text": "배움에 대한 열정"
+                        }
+                    }
+                }
+            ]
         },
-
         {
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": { "title": "Quick {{Facts}}" },
-                "es": { "title": "Feed de {{Noticias}}" },
-                "fr": { "title": "Fil d'{{Actualités}}" },
-                "ko": { "title": "{{뉴스}} 피드" }
+                "en": {
+                    "title": "Quick {{Facts}}"
+                },
+                "es": {
+                    "title": "Feed de {{Noticias}}"
+                },
+                "fr": {
+                    "title": "Fil d'{{Actualités}}"
+                },
+                "ko": {
+                    "title": "{{뉴스}} 피드"
+                }
             },
             "settings": {
                 "max_rows_collapse_threshold": 3,
@@ -212,13 +218,19 @@
                 "order_items_sort": "desc"
             },
             "items": [
-               
                 {
                     "id": 3,
-                    "date": {"year": 2024, "month": 12},
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
                     "preview": {
                         "links": [
-                            {"href": "", "tooltipString": "open_website", "faIcon": "fa-brands fa-globe"}
+                            {
+                                "href": "",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-globe"
+                            }
                         ],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
@@ -279,14 +291,24 @@
                         }
                     }
                 },
-                
                 {
                     "id": 5,
-                    "date": {"year": 2026, "month": 8},
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://www.adarshshukla.in", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/The-adarshshukla", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {
+                                "href": "https://www.adarshshukla.in",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            },
+                            {
+                                "href": "https://github.com/The-adarshshukla",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
                         ],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
@@ -343,6 +365,75 @@
                                 "기술, 코딩 및 개인 경험에 관한 블로그",
                                 "문의 및 협업을 위한 연락처 양식",
                                 "소셜 미디어 프로필 및 GitHub 링크"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "year": 2026,
+                        "month": 9
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.amazon.in/%E0%A4%87%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%A6-%E0%A4%95%E0%A5%80-%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80-%E0%A4%85%E0%A4%A8%E0%A4%95%E0%A4%B9%E0%A5%80-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%AE-ebook/dp/B0HJNW2Z2Y",
+                                "tooltipString": "purchase_book",
+                                "faIcon": "fa-solid fa-book-open"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Published debut literary work: {{'इलाहाबाद की संगिनी'}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Self Publication & KDP",
+                            "text": "Successfully authored and published my debut Hindi novella, <i>[['इलाहाबाद की संगिनी']]</i>.<br> ISBN: 978-93-34-49649-9. This publication bridges contemporary narrative fiction with the cultural heritage and lyrical essence of Prayagraj. Key publication highlights include:",
+                            "list": [
+                                "Officially published globally via Self Publication and Amazon Kindle Direct Publishing",
+                                "Explores profound themes of human emotion, contemporary romance, and regional settings",
+                                "Blends analytical precision with poetic prose and literary expression"
+                            ]
+                        },
+                        "es": {
+                            "title": "Publicación de obra literaria: {{'इलाहाबाद की संगिनी'}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Swatantra Prakashan & KDP",
+                            "text": "Autor y publicación de mi novela corta debut en hindi, [[इलाहाबाद की संगिनी]] (ISBN: 9789334496499). 📖 Esta obra fusiona la ficción narrativa contemporánea con la esencia cultural de Prayagraj.",
+                            "list": [
+                                "Publicado oficialmente a nivel mundial a través de Swatantra Prakashan y Amazon KDP",
+                                "Explora profundos temas de emoción humana y romance contemporáneo",
+                                "Combina la precisión analítica con la prosa poética"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Publication de l'œuvre littéraire : {{'इलाहाबाद की संगिनी'}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Swatantra Prakashan & KDP",
+                            "text": "Auteur et publication de mon premier roman en hindi, [[इलाहाबाद की संगिनी]] (ISBN: 9789334496499). 📖 Cette publication associe la fiction narrative contemporaine à l'essence culturelle de Prayagraj.",
+                            "list": [
+                                "Publié officiellement dans le monde entier via Swatantra Prakashan et Amazon KDP",
+                                "Explore des thèmes profonds d'émotion humaine et de romance contemporaine",
+                                "Allie précision analytique et prose poétique"
+                            ]
+                        },
+                        "ko": {
+                            "title": "문학 작품 출간: {{'इलाहाबाद की संगिनी'}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Swatantra Prakashan & KDP",
+                            "text": "저의 첫 힌디어 소설 [[इलाहाबाद की संगिनी]] (ISBN: 9789334496499)를 집필 및 출간했습니다. 📖 현대 서사 소설과 프라야그라장의 문화적 유산을 조화롭게 담아낸 작품입니다.",
+                            "list": [
+                                "Swatantra Prakashan 및 Amazon KDP를 통해 전 세계 공식 출간",
+                                "휴머니즘, 현대 로맨스, 지역적 배경의 깊은 감정선 탐구",
+                                "기술적 논리와 시적 문학성의 조화"
                             ]
                         }
                     }
