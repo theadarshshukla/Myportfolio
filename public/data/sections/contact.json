@@ -98,8 +98,8 @@
                     "id": 2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "adarshshukla1275@gmail.com",
-                    "link": {"href": "mailto:adarshshukla1275@gmail.com", "tooltipString": "email_me"},
+                    "label": "shuklasurendra127@gmail.com",
+                    "link": {"href": "mailto:shuklasurendra127@gmail.com", "tooltipString": "email_me"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "E-mail"},
