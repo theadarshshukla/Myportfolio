@@ -215,7 +215,77 @@
                 "order_items_sort": "desc"
             },
             "items": [
-              
+              {
+                    "id": 5,
+                    "date": {
+                        "year": 2026,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.amarujala.com/kavya",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/amar ujala kavya.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Poetry Published}} – Amar Ujala Kavya",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Amar Ujala",
+                            "text": "Poetry published in the [[Kavya]] section of 'Amar Ujala', one of India's prominent Hindi literary and news platforms, showcasing creative expression in Hindi poetry. Key highlights include: ",
+                            "list": [
+                                "Published in the Kavya section of Amar Ujala",
+                                "Featured creative Hindi poetic expression on a widely read literary platform",
+                                "Added literary publication credit to portfolio"
+                            ]
+                        },
+                        "es": {
+                            "title": "{{Poesía Publicada}} – Amar Ujala Kavya",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Amar Ujala",
+                            "text": "Poesía publicada en la sección [[Kavya]] de 'Amar Ujala', una de las plataformas literarias y de noticias en hindi más destacadas de la India. Los aspectos más destacados incluyen: ",
+                            "list": [
+                                "Publicada en la sección Kavya de Amar Ujala",
+                                "Expresión poética creativa en hindi en una plataforma literaria de amplia lectura",
+                                "Incorporación de publicación literaria al portafolio"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{कविता प्रकाशित}} – अमर उजाला काव्य",
+                            "province": "नोएडा",
+                            "country": "भारत",
+                            "institution": "अमर उजाला",
+                            "text": "हिन्दी साहित्य और समाचार के प्रमुख मंच 'अमर उजाला' के [[काव्य]] खंड में कविता प्रकाशित हुई, जो हिन्दी काव्य में रचनात्मक अभिव्यक्ति को दर्शाती है। प्रमुख बिंदु: ",
+                            "list": [
+                                "अमर उजाला के काव्य खंड में रचना प्रकाशित",
+                                "व्यापक पाठक वर्ग वाले साहित्यिक मंच पर हिन्दी कविता की प्रस्तुति",
+                                "साहित्यिक प्रकाशन उपलब्धि के रूप में पोर्टफोलियो में शामिल"
+                            ]
+                        },
+                        "ur": {
+                            "title": "{{شاعری شائع}} – امر اجالا کاویہ",
+                            "province": "نوئیڈا",
+                            "country": "بھارت",
+                            "institution": "امر اجالا",
+                            "text": "ہندی ادب اور خبروں کے معروف پلیٹ فارم 'امر اجالا' کے [[کاویہ]] سیکشن میں شاعری شائع ہوئی، جو ہندی شاعری میں تخلیقی اظہار کی عکاسی کرتی ہے۔ اہم نکات: ",
+                            "list": [
+                                "امر اجالا کے کاویہ سیکشن میں کلام شائع ہوا",
+                                "مقبول ادبی پلیٹ فارم پر ہندی شاعری کے تخلیقی اظہار کی پیشکش",
+                                "ادبی اشاعت کے طور پر پورٹ فولیو میں شامل کیا گیا"
+                            ]
+                        }
+                    }
+                },
                 {
                     "id": 4,
                     "date": {
